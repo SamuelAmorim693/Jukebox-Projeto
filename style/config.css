@@ -1,25 +1,49 @@
 *{
-    height: 0;
-    padding: 0;
+    
+    height: auto;
+    padding: 0%;
+
 }
+
 body{
-    background-color: #52525b;
-    color: white;
-}
-h1{
-    font-size: 65px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif
-}
-h2{
-    font-size: 40px;
-    text-align: center;
-    margin: 200px;
-    font-family: 'Times New Roman', Times, serif
+background-color: #52525b;
+color: rgb(255, 255, 255);
+text-align: center;
+margin: 60px;
 }
 
 p{
-    margin: 170px;
-    text-align: left;
-    font-size: 20px;
+text-align: justify;
+font-size: 20px;
+}
+
+ol{
+text-align: justify;
+font-size: 20px;
+}
+
+ul{
+text-align: justify;
+font-size: 20px;
+margin: 0 0px 0 700px;
+}
+
+img{
+height: 500px;
+width: 400px;
+border-radius: 4px;
+margin-bottom: 10px;
+}
+
+div, a{
+column-count: 4;
+margin-bottom: 5px;
+display: flow-root;
+}
+
+h1{
+font-size: 50px;
+}
+h2{
+    font-size: 35px;
 }
